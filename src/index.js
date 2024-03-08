@@ -2,12 +2,22 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
+import FrontPage from './components/frontpage'
+import Skills from './components/skills'
+import Project from './components/projects'
+import Connect from './components/connect'
+import About from './components/about'
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <FrontPage/>
+    <Project/>
+    <Skills/>
+    {/* <App /> */}
+    <Connect/>
+    {/* <About/> */}
   </React.StrictMode>
 );
 
