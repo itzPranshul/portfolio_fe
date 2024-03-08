@@ -1,0 +1,28 @@
+.form{
+    margin:4pc;
+    display: inline-block;
+}
+
+textarea{
+    height: 4pc;
+    width: 64pc;
+    margin-left: 4pc;
+    border-radius: 2pc;
+    font-size: 2rem;
+    padding: 1pc;
+}
+
+button{
+    border: 2px solid whitesmoke;
+    /* border-radius: 2pc; */
+    height: 4pc;
+    width: 32pc;
+    margin-left:4pc;
+    margin-top:2pc;
+    font-size: 3rem;
+
+}
+
+button:hover{
+    background-color:rgb(242, 233, 228);
+}

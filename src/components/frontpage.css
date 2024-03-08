@@ -1,0 +1,27 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    background-color: rgb(13, 27, 42);
+}
+
+.photo{
+    height: 30pc;
+    width: 30pc;
+    border-radius: 50%;
+    margin: 4pc;
+    margin-top: 8pc;
+}
+
+h2{
+    color: rgb(224, 225, 221);
+    font-size: 8rem;
+    margin-left: 4pc;
+}
+
+.hello:hover{
+    color:rgb(13, 27, 42)
+}
+
+hr{
+    margin-top: 10pc;
+}

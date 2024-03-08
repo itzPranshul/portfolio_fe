@@ -1,0 +1,20 @@
+*{
+    color: rgb(224, 225, 221);
+}
+
+h1{
+    color: rgb(119, 141, 169);
+    margin: 4pc;
+}
+
+.headers{
+    margin-left: 4pc;
+    font-size: 4rem;
+    font: bold;
+    margin: 4pc;
+}
+
+.skills{
+    margin: 5pc;
+    font-size: 3rem;;
+}
