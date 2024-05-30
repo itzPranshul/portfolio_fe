@@ -3,7 +3,7 @@
     display: inline-block;
 }
 
-textarea{
+input{
     height: 4pc;
     width: 64pc;
     margin-left: 4pc;
@@ -13,16 +13,24 @@ textarea{
 }
 
 button{
-    border: 2px solid whitesmoke;
-    /* border-radius: 2pc; */
-    height: 4pc;
+    background-color: #d87093;
+    border-radius: 2pc;
+    height: 5pc;
     width: 32pc;
     margin-left:4pc;
-    margin-top:2pc;
+    margin-top:5pc;
     font-size: 3rem;
-
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    cursor: pointer;
 }
 
 button:hover{
-    background-color:rgb(242, 233, 228);
+    transform: scale(1.1);
+}
+
+input{
+    height: 50px;
+    width: 500px;
+    margin-left: 4pc;
+    border: 2px solid white;
 }
