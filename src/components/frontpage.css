@@ -10,6 +10,7 @@
     border-radius: 50%;
     margin: 4pc;
     margin-top: 8pc;
+    border: 5px solid black;
 }
 
 h2{
@@ -19,7 +20,8 @@ h2{
 }
 
 .hello:hover{
-    color:rgb(13, 27, 42)
+    /* color:rgb(13, 27, 42) */
+    color:red;
 }
 
 hr{

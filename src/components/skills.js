@@ -1,4 +1,5 @@
 import './skills.css'
+import Container from './container.js'
 
 export default function skills(){
     return (<>
@@ -41,5 +42,9 @@ export default function skills(){
                 <li>Docker</li>
             </ul>
         <hr></hr>
+        {/* <div><h1>web developer</h1></div> */}
+
+        <Container text="web developer"/>
+
     </>)
 }
