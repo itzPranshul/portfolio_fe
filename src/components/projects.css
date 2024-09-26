@@ -1,16 +1,6 @@
-*{
-
-}
-
-
-.photos{
-    border : 2px solid whitesmoke;
-    width: 40pc;
-    height: 30pc;
-    border-radius: 5%;
-    margin : 4pc
-}
-
-h3{
-    margin-left: 4pc;
-}
+.projectclass {
+    padding-left: 30px; /* Indent all text by 20px */
+    margin-bottom: 20px; /* Optional spacing between projects */
+    font-size: 3rem;
+  }
+  

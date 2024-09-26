@@ -1,7 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
 import FrontPage from './components/frontpage'
 import Skills from './components/skills'
 import Project from './components/projects'
@@ -15,9 +14,8 @@ root.render(
     <FrontPage/>
     <Project/>
     <Skills/>
-    {/* <App /> */}
     <Connect/>
-    {/* <About/> */}
+    <About/>
   </React.StrictMode>
 );
 

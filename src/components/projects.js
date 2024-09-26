@@ -1,28 +1,15 @@
+import React from 'react';
 import './projects.css'
 
-export default function projects(){
-    return (<>
-        <h1>projects</h1>
-        <ul>
-        <li>
-            <h3>Ecommerce website backend : 
-                 <p>made rest api endpoints for authentication and authorization , to create , delete, edit , update  category , for adding product    </p>
-            </h3>
-        </li>
-        <br></br>
-        <li>
-            <h3>Porfolio website :
-               <p>It is made using react which you can see also made backend api endpoint for form submission which is yet to be deployed</p>
-            </h3>
-        </li>
-        <br></br>
-        <li>
-            <h3>Tic Tac Toe game :
-                <p>made using HTML ,CSS , JS</p>
-            </h3>
-                
-        </li>
-        </ul>
-        <hr></hr>
-    </>)
-}
+
+const Portfolio = () => {
+  return (<>
+      <h1>My Projects</h1>
+      <text className='projectclass'><b>Ingredientify : </b><i>A backend project  in which a ingredients of packaged food item stored and a score and rating is determined on the basis on healthiness</i></text>
+      <br></br>
+      <text className='projectclass'><b>Ecommerce website : </b><i>It has a authentication systum where user can sign up, sign in using JWT, password  encryptes using bcrypt  and multiple functionalities of ecommerce it is deployed on aws ec3 and the data is stored in mongodb atlas </i></text>
+        </>
+  );
+};
+
+export default Portfolio;
