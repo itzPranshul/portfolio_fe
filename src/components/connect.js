@@ -52,7 +52,7 @@ export default function Connect() {
 
     return (
         <>
-            <h1 className='headings'>Let's connect</h1>
+            {/* <h1 className='headings'>Let's connect</h1> */}
             <form className='form' onSubmit={handleSubmit}>
                 <div className='formInput'>
                     <h2>Name:</h2>

@@ -1,3 +1,11 @@
 .accounts{
-    margin: 20px;
+    margin: 10pc;
+    font-size: 5rem;
+}
+
+a{
+    text-decoration: none;
+}
+.accounts:hover{
+    color: red;
 }

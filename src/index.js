@@ -8,14 +8,16 @@ import Connect from './components/connect'
 import About from './components/about'
 import reportWebVitals from './reportWebVitals';
 
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <FrontPage/>
     <Project/>
     <Skills/>
-    <Connect/>
     <About/>
+    <Connect/>
+
   </React.StrictMode>
 );
 
