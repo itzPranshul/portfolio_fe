@@ -1,49 +1,18 @@
-import './skills.css'
-// import Container from './container.js'
+import './skills.css';
+// import Container from './container.js';
 
-export default function skills(){
-    return (<>
-    <h1>SKILLS</h1>
-        <li className='headers'>Software engineer : </li>
-            <ul className='skills'>
-                <li>C++</li>
-                <li>Object Oriented Programming</li>
-                <li>Data structures and algorithm</li>
+export default function Skills() {
+    return (
+        <>
+            <h1 className="headings">Skills</h1>
+            <ul>
+                <li className="headers">Proficient in building responsive UIs with ReactJS</li>
+                <li className="headers">Experienced in developing REST API endpoints for data management</li>
+                <li className="headers">Skilled in containerizing and deploying microservices using Docker on AWS or other cloud platforms</li>
+                <li className="headers">Competent in creating and managing both SQL and NoSQL databases</li>
+                <li className="headers">Fluent in working with CLI tools for efficient development</li>
+                <li className="headers">Effective in collaborating on team projects using communication and collaboration tools</li>
             </ul>
-
-        <li className='headers'> Programming languages : </li>
-            <ul className='skills'>
-                <li>c++</li>
-                <li>javascript</li>
-                <li>python</li>
-            </ul>
-        <li className='headers'>Front-End Web Development : </li>
-            <ul className='skills'>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>javascript</li>
-                <li>ReactJS</li>
-            </ul>
-        <li className='headers'>Backend Web Development : </li>
-            <ul className='skills'>
-                <li>Nodejs</li>
-                <li>express</li>
-                <li>postman</li>
-            </ul>
-        <li className='headers'>Databases : </li>
-            <ul className='skills'>
-                <li>SQL</li>
-                <li>mongoDB</li>
-            </ul>
-        <li className='headers'>Tools :</li>
-            <ul className='skills'>
-                <li>Git & Github</li>
-                <li>Postman</li>
-                <li>Docker</li>
-            </ul>
-        {/* <div><h1>web developer</h1></div> */}
-
-        {/* <Container text="web developer"/> */}
-
-    </>)
+        </>
+    );
 }

@@ -25,7 +25,7 @@ export default function Connect() {
     const handleSubmit = async (e) => {
         e.preventDefault();
         try {
-            const response = await fetch('http://localhost:8000/portfolio_be/api/v1/db/db_controller', {
+            const response = await fetch('http://13.200.180.233:3000/portfolio_be/api/v1/db/db_controller', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'
@@ -52,7 +52,7 @@ export default function Connect() {
 
     return (
         <>
-            <h1>Let's connect</h1>
+            <h1 className='headings'>Let's connect</h1>
             <form className='form' onSubmit={handleSubmit}>
                 <div className='formInput'>
                     <h2>Name:</h2>

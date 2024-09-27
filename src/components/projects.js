@@ -4,10 +4,15 @@ import './projects.css'
 
 const Portfolio = () => {
   return (<>
-      <h1>My Projects</h1>
-      <text className='projectclass'><b>Ingredientify : </b><i>A backend project  in which a ingredients of packaged food item stored and a score and rating is determined on the basis on healthiness</i></text>
-      <br></br>
-      <text className='projectclass'><b>Ecommerce website : </b><i>It has a authentication systum where user can sign up, sign in using JWT, password  encryptes using bcrypt  and multiple functionalities of ecommerce it is deployed on aws ec3 and the data is stored in mongodb atlas </i></text>
+      <h1 className='headings'>My Projects</h1>
+      <ul>
+        <li className='headers'><b>Ingredientify : </b><i>my personal project in healthtech in which users can scan the packeged food and get insights for the healthiness of that food</i></li>
+        <li className='headers'><b>Ecommerce : </b><i>A back-end project with a authentication systum using JWT and users can add, remove products in the cart</i></li>
+        <li className='headers'>yet to come</li>
+        <li className='headers'>yet to come</li>
+        <li className='headers'>yet to come</li>
+      </ul>
+      
         </>
   );
 };
